@@ -37,6 +37,18 @@ function About() {
             <div className="flex items-start gap-4 p-6 bg-pink-50 rounded-2xl border border-pink-100">
               <div className="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">Passionate Developer</h3>
+                <p className="text-gray-600 text-sm">Dedicated to building modern and impactful applications.</p>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-4 p-6 bg-pink-50 rounded-2xl border border-pink-100">
+              <div className="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                 </svg>
               </div>
